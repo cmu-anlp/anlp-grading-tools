@@ -11,7 +11,7 @@ scores_folder = Path('/mnt/scores')
 execute_cli_timeout(
     'cd /mnt/code && '
     'python3 /mnt/code/classifier.py '
-    '--option=pretrain '
+    '--option=freeze '
     '--epochs=10 '
     '--lr=1e-3 '
     '--use_gpu '
